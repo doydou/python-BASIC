@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="补充提交" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9081133c-e7f3-406a-a05d-c23e7e59097d" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/doydou/python-basic.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dyVVIN6CZ8Vp0iCRt3bgmtz3eP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Python.basic knowledge (1)">
+    <configuration name="basic knowledge (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic knowledge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object&amp;numobject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object&amp;numobject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.basic knowledge (1)" />
+        <item itemvalue="Python.object&amp;numobject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="" />
+      <created>1593397341691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593397341691</updated>
+    </task>
+    <task id="LOCAL-00001" summary="第一节内容的补充和修改">
+      <created>1595991821153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595991821153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一节内容的补充和修改">
+      <created>1596018734583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596018734583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="补充提交">
+      <created>1596018770807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596018770807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="补充提交">
+      <created>1596018849313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596018849313</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;basic knowledge.py">
+      <created>1596019200431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596019200431</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;basic knowledge.py">
+      <created>1596019252769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596019252769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 09a0a4ff">
+      <created>1596019292772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596019292772</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一节内容的补充和修改" />
+    <MESSAGE value="补充提交" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;basic knowledge.py" />
+    <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 09a0a4ff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 09a0a4ff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1014" y="503" key="#Inspections" timestamp="1595992482300">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1014" y="503" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1595992482300" />
+    <state x="1176" y="716" key="#Notifications" timestamp="1596019004184">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1176" y="716" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1596019004184" />
+    <state x="886" y="478" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593506171331">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="886" y="478" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593506171331" />
+    <state x="918" y="407" key="CommitChangelistDialog2" timestamp="1596019292058">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="918" y="407" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596019292058" />
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog" timestamp="1596019045271">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596019045271" />
+    <state x="771" y="438" key="FileChooserDialogImpl" timestamp="1595928738034">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="771" y="438" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1595928738034" />
+    <state x="1105" y="701" width="471" height="205" key="Github.ShareDialog" timestamp="1595929436103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1105" y="701" width="471" height="205" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929436103" />
+    <state x="1049" y="504" key="Github.UntrackedFilesDialog" timestamp="1595929479000">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
+    <state width="2228" height="223" key="GridCell.Tab.0.bottom" timestamp="1596019045195">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2228" height="223" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596019045195" />
+    <state width="2228" height="223" key="GridCell.Tab.0.center" timestamp="1596019045195">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2228" height="223" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596019045195" />
+    <state width="2228" height="223" key="GridCell.Tab.0.left" timestamp="1596019045195">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2228" height="223" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596019045195" />
+    <state width="2228" height="223" key="GridCell.Tab.0.right" timestamp="1596019045195">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2228" height="223" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596019045195" />
+    <state width="1539" height="349" key="GridCell.Tab.1.bottom" timestamp="1593506201406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1539" height="349" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
+    <state width="1539" height="349" key="GridCell.Tab.1.center" timestamp="1593506201406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1539" height="349" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
+    <state width="1539" height="349" key="GridCell.Tab.1.left" timestamp="1593506201406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1539" height="349" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
+    <state width="1539" height="349" key="GridCell.Tab.1.right" timestamp="1593506201406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1539" height="349" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
+    <state x="261" y="244" key="MergeDialog" timestamp="1596019272891">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="261" y="244" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596019272891" />
+    <state x="928" y="614" key="MultipleFileMergeDialog" timestamp="1596019272898">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="928" y="614" key="MultipleFileMergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596019272898" />
+    <state x="1095" y="555" key="RollbackChangesDialog" timestamp="1596018962582">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1095" y="555" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596018962582" />
+    <state x="492" y="328" key="SettingsEditor" timestamp="1595928905981">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="492" y="328" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595928905981" />
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1595991827913">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1595991827913" />
+    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596019106871">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596019106871" />
+  </component>
+</project>
