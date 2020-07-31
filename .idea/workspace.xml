@@ -21,13 +21,14 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:github.com" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:github.com/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="补充提交">
+    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="第一节完整提交">
+      <change afterPath="$PROJECT_DIR$/basic-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-knowledge.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic-1.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -77,6 +78,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="9081133c-e7f3-406a-a05d-c23e7e59097d" />
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596079202178</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="第一节完整提交">
+      <created>1596099218451</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596099218451</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +300,17 @@
                   <entry key="MY_COMMITS" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github.com/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -304,7 +324,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;basic knowledge.py" />
     <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 09a0a4ff" />
     <MESSAGE value="补充提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充提交" />
+    <MESSAGE value="第一节完整提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一节完整提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="503" key="#Inspections" timestamp="1595992482300">
@@ -323,10 +344,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="918" y="407" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596019292058" />
-    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog" timestamp="1596078040357">
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog" timestamp="1596099435400">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596078040357" />
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596099435400" />
     <state x="771" y="438" key="FileChooserDialogImpl" timestamp="1595928738034">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -339,22 +360,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="2109" height="237" key="GridCell.Tab.0.bottom" timestamp="1596079350713">
+    <state width="1143" height="229" key="GridCell.Tab.0.bottom" timestamp="1596106196742">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2109" height="237" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596079350713" />
-    <state width="2109" height="237" key="GridCell.Tab.0.center" timestamp="1596079350713">
+    <state width="1143" height="229" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596106196742" />
+    <state width="1143" height="229" key="GridCell.Tab.0.center" timestamp="1596106196742">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2109" height="237" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596079350713" />
-    <state width="2109" height="237" key="GridCell.Tab.0.left" timestamp="1596079350713">
+    <state width="1143" height="229" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596106196742" />
+    <state width="1143" height="229" key="GridCell.Tab.0.left" timestamp="1596106196741">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2109" height="237" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596079350713" />
-    <state width="2109" height="237" key="GridCell.Tab.0.right" timestamp="1596079350713">
+    <state width="1143" height="229" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596106196741" />
+    <state width="1143" height="229" key="GridCell.Tab.0.right" timestamp="1596106196742">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2109" height="237" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596079350713" />
+    <state width="1143" height="229" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596106196742" />
     <state width="1539" height="349" key="GridCell.Tab.1.bottom" timestamp="1593506201406">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -383,22 +404,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1095" y="555" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596077989964" />
-    <state x="492" y="328" key="SettingsEditor" timestamp="1596076565269">
+    <state x="492" y="328" key="SettingsEditor" timestamp="1596099554844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="492" y="328" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596076565269" />
+    <state x="492" y="328" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1596099554844" />
     <state x="1140" y="764" key="VCS.ChangelistChooser" timestamp="1596079149638">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1140" y="764" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596079149638" />
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1596077458574">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1596099580981">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596077458574" />
-    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596083391665">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596099580981" />
+    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596099083495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596083391665" />
+    <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596099083495" />
     <state x="1127" y="685" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596092532704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
