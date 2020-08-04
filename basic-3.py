@@ -8,4 +8,24 @@ tuple 和 List 非常类似，但是 tuple 一旦初始化就不能修改。 也
 所以建议能用 tuple 代替 list 就尽量用 tuple 。
 '''
 #创建元组(tuple)
-tuple1=('糕糕','shuangshuang','nene','宁宁','972126')
+tuple1 = ('糕糕','shuangshuang','nene','宁宁','972126')
+tuple2 = ('潇潇','凡凡','丑丑')
+list = [1,2,3,4,5]
+#计算元素个数
+print(len(tuple1))
+#连接，两个元素相加
+print(tuple1+tuple2)
+#复制元组
+print(tuple1*2)
+#元素是否存在糕糕
+print('糕糕' in tuple1)
+# 将列表转换为元组
+print(tuple(list))
+
+'''
+方法	    描述
+len(tuple)	计算元组元素个数
+max(tuple)	返回元组中元素最大值
+min(tuple)	返回元组中元素最小值
+tuple(seq)	将列表转换为元组
+'''
