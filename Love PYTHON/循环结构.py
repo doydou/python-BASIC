@@ -43,5 +43,27 @@ else:
     print("你太厉害了")
 
 #练习：1输出乘法口诀表(九九表)
+for i in range(1,10):
+    for j in range(1,i+1):
+        print("%d*%d=%d\t"%(i,j,i*j),end='')
+    print()
+
+#2.判断是否是闰年
+year = int(input("请输入一个年份: "))
+if (year % 4) == 0 and (year % 100) != 0 or (year % 400) == 0:
+    print('{0} 是闰年' .format(year))
+else:
+    print('{0} 不是闰年' .format(year))
+
+#3.计算100以内素数
+primenumber = []
+for i in range(2,101):
+    for j in range(2,i):#当i=2时，值为nothing，会直接跳过这个循环
+        if (i % j == 0):
+            break
+    else:
+        primenumber.append(i)
+print(primenumber)
+
 
 
