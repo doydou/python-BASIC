@@ -33,7 +33,31 @@ print(type(c))
 print(type(d))
 print(type(e))
 
-###练习
+
+#字符串的使用
+str1 = "hello,world!"
+#通过len函数计算字符串的长度
+print(len(str1))#13
+#字符串的首字母大写
+print(str1.capitalize())#HELLO, WORLD!
+#获得字符串所有字母变大写
+print(str1.upper())
+#从字符串中查找子串的位置
+print(str1.find('or'))#7
+print(str1.find('shit'))#-1
+
+str2 = 'abc123456'
+#从字符串中取出指定位置的字符
+print(str2[2])
+#字符串切片(从指定的开始索引到指定的结束索引)
+print(str2[2:5])#c12
+print(str2[2:])
+print(str2[2::2])#2 to the end，step=2
+print(str2[::2])#step=2
+print(str2[::-1])#逆
+print(str2[-3:-1])#45
+
+#练习
 """
 1。计算并打印出 993 + 196 的和， 乘以 7 的积， 然后除以3
 2.计算并打印出 993 + 196 的和，乘以 7 的积， 然后除以3 的 商 和 余数

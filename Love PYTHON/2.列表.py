@@ -10,15 +10,39 @@ print(name[0:2])#左闭右开区间
 #4.更新列表(使用append()方法来添加列表项)
 name.append("凡凡")
 print(name)
+name.insert(1,400)
 #5.删除列表中的元素，使用del语句来删除列表中的元素
 del name[3]
 print(name)
-#删除末尾元素用pop()
+#6删除末尾元素用pop()
 name.pop()
 print(name)
-#删除指定位置元素
+#7删除指定位置元素
 name.pop(1)
 print(name)
+#8下标（索引）运算
+print(name[0])
+print(name[-1])
+# 清空列表元素
+"name.clear()"
+#对列表进行切片
+fruits = ['grape','apple','strawberry']
+fruits += ['pitaya','pear','watermelon']
+   #循环遍历列表元素
+for fruit in fruits:
+        print(fruit, end= '\t')
+
+
+
+
+
+
+
+
+
+
+
+
 '''
 函数&方法	                    描述
 len(list)	                    列表元素个数
