@@ -21,14 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="基础提交">
+      <change afterPath="$PROJECT_DIR$/Love PYTHON/8.函数进阶.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/basic-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/1.数据类型与运算.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/basic-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/2.列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/basic-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/3.元组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/basic-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/4.字典.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/函数基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/6.函数基础.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/函数进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/7.函数进阶.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/循环结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/5.循环结构.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/2.列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/2.列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/3.元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/3.元组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/5.循环结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/6.函数基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/7.函数进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/5.集合.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -109,8 +110,8 @@
       <recent name="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2.列表 (1)">
-    <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.7.函数基础">
+    <configuration name="值得注意的细节" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,28 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/1111.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1.数据类型与运算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/1.数据类型与运算.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,28 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.元组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON\3.元组.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5.循环结构" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5.集合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON\5.循环结构.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/5.集合.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="函数基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6.循环结构 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,7 +186,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON\函数基础.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.函数基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7.函数基础" />
+        <item itemvalue="Python.值得注意的细节" />
+        <item itemvalue="Python.6.循环结构 (1)" />
+        <item itemvalue="Python.5.集合" />
         <item itemvalue="Python.2.列表 (1)" />
-        <item itemvalue="Python.1111" />
-        <item itemvalue="Python.1.数据类型与运算" />
-        <item itemvalue="Python.5.循环结构" />
-        <item itemvalue="Python.3.元组" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596709913694</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="基础提交">
+      <created>1596795755577</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596795755577</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,10 +517,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="918" y="407" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1596019292058" />
-    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog" timestamp="1596099435400">
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog" timestamp="1597047108642">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596099435400" />
+    <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597047108642" />
     <state x="771" y="438" key="FileChooserDialogImpl" timestamp="1595928738034">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -546,22 +533,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="1266" height="257" key="GridCell.Tab.0.bottom" timestamp="1596774689620">
+    <state width="1275" height="190" key="GridCell.Tab.0.bottom" timestamp="1597053100976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1266" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596774689620" />
-    <state width="1266" height="257" key="GridCell.Tab.0.center" timestamp="1596774689620">
+    <state width="1275" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
+    <state width="1275" height="190" key="GridCell.Tab.0.center" timestamp="1597053100976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1266" height="257" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596774689620" />
-    <state width="1266" height="257" key="GridCell.Tab.0.left" timestamp="1596774689620">
+    <state width="1275" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
+    <state width="1275" height="190" key="GridCell.Tab.0.left" timestamp="1597053100976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1266" height="257" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596774689620" />
-    <state width="1266" height="257" key="GridCell.Tab.0.right" timestamp="1596774689620">
+    <state width="1275" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
+    <state width="1275" height="190" key="GridCell.Tab.0.right" timestamp="1597053100976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1266" height="257" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596774689620" />
+    <state width="1275" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
     <state width="1539" height="349" key="GridCell.Tab.1.bottom" timestamp="1593506201406">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -598,10 +585,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1140" y="764" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596079149638" />
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1596709926126">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1596795771270">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596709926126" />
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596795771270" />
     <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596428171682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -610,9 +597,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="685" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596092532704" />
-    <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup" timestamp="1596706258556">
+    <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup" timestamp="1597043398791">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596706258556" />
+    <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1597043398791" />
   </component>
 </project>

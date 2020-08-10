@@ -28,21 +28,24 @@ print(name[-1])
 #对列表进行切片
 fruits = ['grape','apple','strawberry']
 fruits += ['pitaya','pear','watermelon']
-   #循环遍历列表元素
+#循环遍历列表元素
 for fruit in fruits:
-        print(fruit, end= '\t')
-
-
-
-
-
-
-
-
-
-
-
-
+        print(fruit.title(),end= '\t')
+#列表切片
+fruits2 = fruits[1:4]
+print(fruits2)
+#可以通过完整切片来复制列表
+fruits3 = fruits[:]
+print(fruits3)
+#反向切片
+fruits5 = fruits[::-1]
+print(fruits5)
+#对列表的排序
+list1 =['orange','apple','zoo','internationalization','blueberry']
+list2 = sorted(list1)
+#给列表对象发出排序消息直接再列表对象上排序
+list1.sort(reverse=True)#按照倒序，reverse=false，正序
+print(list1)
 '''
 函数&方法	                    描述
 len(list)	                    列表元素个数

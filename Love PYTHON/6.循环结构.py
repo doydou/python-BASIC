@@ -70,12 +70,11 @@ print(primenumber)
 1只公鸡5元 1只母鸡3元 3只小鸡1元 用100元买100只鸡
 问公鸡 母鸡 小鸡各有多少只
 """
-
-"""
-判断输入的正整数是不是回文数
-回文数是指将一个正整数从左往右排列和从右往左排列值一样的数
-"""
-
+for x in range(0,20):
+    for y in range(0,33):
+        z = 100 - x - y
+        if 5*x + 3*y + z/3 == 100:
+            print('公鸡:%d,母鸡%d，小鸡%d'%(x,y,z))
 
 """
 Craps赌博游戏
@@ -87,6 +86,32 @@ Craps赌博游戏
 玩家进入游戏时有1000元的赌注 全部输光游戏结束
 """
 from random import randint
+#后面再回来看，写的不太对
+money = 1000
+while money:
+    print('你的总资产为：',money)
+    debt=int(input('请下注：'))
+    if debt>0 and debt > money:
+        continue
+    while True:#游戏是一个死循环
+        first = randint(1,6) + randint(1,6)
+        print('玩家摇出了%d点' % first)
+        if first == 7 or first == 11:
+            print('player win')
+            money += debt
+        elif first == 2 or first == 3 or first == 12:
+            print('banker win')
+            money -= debt
+        else:
+            second = randint(1,6) + randint(1,6)
+            if second == 7:
+                print('banker win')
+                money -= debt
+            elif second == first:
+                print('player win')
+                money += debt
+                break
+
 
 
 

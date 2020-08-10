@@ -13,6 +13,8 @@ tuple2 = ('潇潇','凡凡','丑丑')
 list = [1,2,3,4,5]
 #计算元素个数
 print(len(tuple1))
+#获取元组中的元素
+print(tuple1[0])
 #连接，两个元素相加
 print(tuple1+tuple2)
 #复制元组
