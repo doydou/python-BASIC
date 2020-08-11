@@ -20,16 +20,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="基础提交">
-      <change afterPath="$PROJECT_DIR$/Love PYTHON/8.函数进阶.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" afterDir="false" />
+    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="补充提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/2.列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/2.列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/3.元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/3.元组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/5.循环结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/6.函数基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/7.函数进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/5.集合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -110,7 +103,7 @@
       <recent name="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7.函数基础">
+  <component name="RunManager" selected="Python.9.面对对象编程">
     <configuration name="值得注意的细节" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,27 +117,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2.列表 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/2.列表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,6 +188,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9.面对对象编程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9.面对对象编程" />
         <item itemvalue="Python.7.函数基础" />
         <item itemvalue="Python.值得注意的细节" />
         <item itemvalue="Python.6.循环结构 (1)" />
         <item itemvalue="Python.5.集合" />
-        <item itemvalue="Python.2.列表 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596795755577</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="补充提交">
+      <created>1597055663374</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597055663374</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,12 +489,12 @@
     <MESSAGE value="update" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;basic knowledge.py" />
     <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 09a0a4ff" />
-    <MESSAGE value="补充提交" />
     <MESSAGE value="第一节完整提交" />
     <MESSAGE value="第二节" />
     <MESSAGE value="提交" />
     <MESSAGE value="基础提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础提交" />
+    <MESSAGE value="补充提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="503" key="#Inspections" timestamp="1595992482300">
@@ -509,6 +509,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="886" y="478" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1593506171331" />
+    <state x="1296" y="515" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597126476339">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1296" y="515" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1597126476339" />
     <state x="1553" y="373" key="#函数" timestamp="1596707195455">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -533,38 +537,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="1275" height="190" key="GridCell.Tab.0.bottom" timestamp="1597053100976">
+    <state width="1097" height="190" key="GridCell.Tab.0.bottom" timestamp="1597119383998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
-    <state width="1275" height="190" key="GridCell.Tab.0.center" timestamp="1597053100976">
+    <state width="1097" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597119383998" />
+    <state width="1097" height="190" key="GridCell.Tab.0.center" timestamp="1597119383998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
-    <state width="1275" height="190" key="GridCell.Tab.0.left" timestamp="1597053100976">
+    <state width="1097" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597119383998" />
+    <state width="1097" height="190" key="GridCell.Tab.0.left" timestamp="1597119383998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
-    <state width="1275" height="190" key="GridCell.Tab.0.right" timestamp="1597053100976">
+    <state width="1097" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597119383998" />
+    <state width="1097" height="190" key="GridCell.Tab.0.right" timestamp="1597119383998">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597053100976" />
-    <state width="1539" height="349" key="GridCell.Tab.1.bottom" timestamp="1593506201406">
+    <state width="1097" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597119383998" />
+    <state width="637" height="369" key="GridCell.Tab.1.bottom" timestamp="1597119382020">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1539" height="349" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
-    <state width="1539" height="349" key="GridCell.Tab.1.center" timestamp="1593506201406">
+    <state width="637" height="369" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597119382020" />
+    <state width="637" height="369" key="GridCell.Tab.1.center" timestamp="1597119382019">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1539" height="349" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
-    <state width="1539" height="349" key="GridCell.Tab.1.left" timestamp="1593506201406">
+    <state width="637" height="369" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597119382019" />
+    <state width="637" height="369" key="GridCell.Tab.1.left" timestamp="1597119382019">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1539" height="349" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
-    <state width="1539" height="349" key="GridCell.Tab.1.right" timestamp="1593506201406">
+    <state width="637" height="369" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597119382019" />
+    <state width="637" height="369" key="GridCell.Tab.1.right" timestamp="1597119382020">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1539" height="349" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1593506201406" />
+    <state width="637" height="369" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597119382020" />
     <state x="261" y="244" key="MergeDialog" timestamp="1596019905924">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -585,10 +589,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1140" y="764" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596079149638" />
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1596795771270">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1597055673208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1596795771270" />
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597055673208" />
     <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596428171682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
