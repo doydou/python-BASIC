@@ -1,4 +1,5 @@
-'''注意1.
+'''
+注意1.
 in range(2,2)会生成nothing，直接跳过这个循环。
 for i in range(2, 2):
     if i is None:

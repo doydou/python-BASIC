@@ -35,19 +35,13 @@ def main():
 if __name__ == '__main__':
     main()
 
-#面对对象的三大支柱：封装，继承和多态
-'''在类中定义的方法其实就是把数据和对数据的操作封装起来了，在我们创建了对象之后，只需要给对象发送一个消息（调用方法）
-就可以执行方法中的代码，也就是说我们只需要知道方法的名字和传入的参数（方法的外部视图）
-而不需要知道方法内部的实现细节（方法的内部视图）。'''
-
-
 
 #练习1：定义一个类描述数字时钟
 from time import sleep
 
 class Clock():
 
-    def __init__(self,hour,minute,second):
+    def __init__(self,hour=0,minute=0,second=0):
         self.hour = hour
         self.minute = minute
         self.second = second
@@ -56,6 +50,30 @@ class Clock():
     def runtime(self):
         #走字
         self.second += 1
+        if self.second == 60:
+            self.minute += 1
+            self.second = 0
+            if self.minute == 60:
+                self.hour += 1
+                self.minute = 0
+                if self.hour == 24:
+                    self.hour = 0
+
+    def show(self):
+        #显示时间
+        return '%.2d:%.2d:%.2d' % \
+                (self.hour,self.minute,self.second)
+
+#调用函数
+def main():
+    clock = Clock(23, 59, 59)
+    while True:
+        print(clock.show())
+        clock.runtime()
+        sleep(1)
+
+if __name__ == '__main__':
+    main()
 
 
-
+# 定义一个类描述平面上的点并提供移动点和计算到另一个点距离的方法。
