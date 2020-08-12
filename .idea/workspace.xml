@@ -21,13 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/Love PYTHON/8.函数式编程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/8.函数进阶.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/10.面对对象高级编程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/4.字典.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/4.字典.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -102,14 +97,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2048GAME" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10.面对对象高级编程">
+  <component name="RunManager" selected="Python.4.字典">
     <configuration name="值得注意的细节" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6.循环结构 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4.字典" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/4.字典.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4.字典" />
         <item itemvalue="Python.10.面对对象高级编程" />
         <item itemvalue="Python.9.面对对象编程" />
         <item itemvalue="Python.7.函数基础" />
         <item itemvalue="Python.值得注意的细节" />
-        <item itemvalue="Python.6.循环结构 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597141772203</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="提交">
+      <created>1597223053409</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597223053409</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,22 +552,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="1275" height="190" key="GridCell.Tab.0.bottom" timestamp="1597216235709">
+    <state width="1335" height="190" key="GridCell.Tab.0.bottom" timestamp="1597224902067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597216235709" />
-    <state width="1275" height="190" key="GridCell.Tab.0.center" timestamp="1597216235709">
+    <state width="1335" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
+    <state width="1335" height="190" key="GridCell.Tab.0.center" timestamp="1597224902067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597216235709" />
-    <state width="1275" height="190" key="GridCell.Tab.0.left" timestamp="1597216235709">
+    <state width="1335" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
+    <state width="1335" height="190" key="GridCell.Tab.0.left" timestamp="1597224902067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597216235709" />
-    <state width="1275" height="190" key="GridCell.Tab.0.right" timestamp="1597216235709">
+    <state width="1335" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
+    <state width="1335" height="190" key="GridCell.Tab.0.right" timestamp="1597224902067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1275" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597216235709" />
+    <state width="1335" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
     <state width="637" height="370" key="GridCell.Tab.1.bottom" timestamp="1597215862199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -594,18 +596,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1095" y="555" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596077989964" />
-    <state x="522" y="403" key="SettingsEditor" timestamp="1597141950361">
+    <state x="522" y="403" key="SettingsEditor" timestamp="1597222957021">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="522" y="403" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597141950361" />
+    <state x="522" y="403" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597222957021" />
     <state x="1140" y="764" key="VCS.ChangelistChooser" timestamp="1596079149638">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1140" y="764" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596079149638" />
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1597141778839">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1597223063897">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597141778839" />
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597223063897" />
     <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596428171682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
