@@ -20,9 +20,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="提交">
+    <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="完善字典部分知识">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/4.字典.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/4.字典.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -104,8 +105,8 @@
       <recent name="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4.字典">
-    <configuration name="值得注意的细节" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.6.循环结构">
+    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/值得注意的细节.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,6 +169,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6.循环结构" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/6.循环结构.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="7.函数基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,27 +232,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="值得注意的细节" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6.循环结构" />
         <item itemvalue="Python.4.字典" />
         <item itemvalue="Python.10.面对对象高级编程" />
         <item itemvalue="Python.9.面对对象编程" />
         <item itemvalue="Python.7.函数基础" />
-        <item itemvalue="Python.值得注意的细节" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597223053409</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="完善字典部分知识">
+      <created>1597224930387</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597224930387</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +517,8 @@
     <MESSAGE value="基础提交" />
     <MESSAGE value="补充提交" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="完善字典部分知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善字典部分知识" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="503" key="#Inspections" timestamp="1595992482300">
@@ -552,38 +561,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="1335" height="190" key="GridCell.Tab.0.bottom" timestamp="1597224902067">
+    <state width="1558" height="190" key="GridCell.Tab.0.bottom" timestamp="1597285135675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1335" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
-    <state width="1335" height="190" key="GridCell.Tab.0.center" timestamp="1597224902067">
+    <state width="1558" height="190" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597285135675" />
+    <state width="1558" height="190" key="GridCell.Tab.0.center" timestamp="1597285135675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1335" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
-    <state width="1335" height="190" key="GridCell.Tab.0.left" timestamp="1597224902067">
+    <state width="1558" height="190" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597285135675" />
+    <state width="1558" height="190" key="GridCell.Tab.0.left" timestamp="1597285135675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1335" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
-    <state width="1335" height="190" key="GridCell.Tab.0.right" timestamp="1597224902067">
+    <state width="1558" height="190" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597285135675" />
+    <state width="1558" height="190" key="GridCell.Tab.0.right" timestamp="1597285135675">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1335" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597224902067" />
-    <state width="637" height="370" key="GridCell.Tab.1.bottom" timestamp="1597215862199">
+    <state width="1558" height="190" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597285135675" />
+    <state width="637" height="370" key="GridCell.Tab.1.bottom" timestamp="1597227567645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="637" height="370" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597215862199" />
-    <state width="637" height="370" key="GridCell.Tab.1.center" timestamp="1597215862199">
+    <state width="637" height="370" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597227567645" />
+    <state width="637" height="370" key="GridCell.Tab.1.center" timestamp="1597227567645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="637" height="370" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597215862199" />
-    <state width="637" height="370" key="GridCell.Tab.1.left" timestamp="1597215862199">
+    <state width="637" height="370" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597227567645" />
+    <state width="637" height="370" key="GridCell.Tab.1.left" timestamp="1597227567644">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="637" height="370" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597215862199" />
-    <state width="637" height="370" key="GridCell.Tab.1.right" timestamp="1597215862199">
+    <state width="637" height="370" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597227567644" />
+    <state width="637" height="370" key="GridCell.Tab.1.right" timestamp="1597227567645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="637" height="370" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597215862199" />
+    <state width="637" height="370" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597227567645" />
     <state x="261" y="244" key="MergeDialog" timestamp="1596019905924">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -604,10 +613,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1140" y="764" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1596079149638" />
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1597223063897">
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2" timestamp="1597224937316">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597223063897" />
+    <state x="980" y="558" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1597224937316" />
     <state x="1181" y="738" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596428171682">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
