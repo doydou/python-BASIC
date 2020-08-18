@@ -15,7 +15,7 @@ print(add(1,2))
 主要的参数类型有：默认参数、关键字参数（位置参数）、不定长参数。
 下面我们将一一了解这几种参数。
 '''
-#默认参数-只要在构造函数的时候，给参数赋值就可以了
+##默认参数-只要在构造函数的时候，给参数赋值就可以了
 def print_user_info(name,age,sex='男'):
     #打印用户信息
     print('昵称：{}'.format(name),end=' ')
@@ -28,9 +28,15 @@ def print_user_info(name,age,sex='男'):
 #不能声明函数形参的时候，先声明有默认值的形参，后声明没有默认值的形参
 print_user_info('糕糕','23','女')
 
-#关键字参数（位置参数）
-# 不定长参数
-# 只接受关键字参数
+##关键字参数（位置参数）
+'编写一个名为make_shirt() 的函数，它接受一个尺码以及要印到T恤上的字样。'
+def make_shirt(word,size):
+    print("衣服上印着{}".format(word))
+    print("依附的大小是{}".format(size))
+
+
+make_shirt(24,'L')#位置实参
+make_shirt(word='糕糕',size='L')#关键字实参
 
 
 '''函数的传值问题'''
@@ -43,51 +49,3 @@ print(b)#b还是等于1
 # 变量赋值 a = 1,其实就是生成一个整形对象 1 ,然后变量 a 指向 1,
 # 当 a = 1000 其实就是再生成一个整形对象 1000,然后改变 a 的指向,
 # 不再指向整形对象 1 ,而是指向 1000,最后 1 会被丢弃
-
-'''递归函数'''
-
-
-#练习：
-#写一个函数，判断用户传入的列表长度是否大于2，如果大于2，只保留前两个，并将新内容返回给调用者
-def func(list):
-    if len(list) > 2:
-        return list[0:2]
-    else:
-        return list
-
-print(func([1,2,3,4]))
-
-
-#写函数，统计字符串中有几个字母，几个数字，几个空格，几个其他字符，并返回结果
-def func1(s):#形参传递内容
-    alpha = 0
-    number = 0
-    space = 0
-    other = 0
-    for i in s:
-        if i.isalpha(): #检查字符串是否由数字组成
-            alpha += 1
-        elif i.isdigit():
-            number += 1
-        elif i.isspace():
-            space += 1
-        else:
-            other += 1
-    return [alpha,number,space,other]
-
-r= func1("qwer 123")
-print(r)
-
-#写函数，检查获取传入列表或元组对象的所有奇数位索引对应的元素，并将其作为新的列表返回给调用
-def func2(p,q):
-    result = []
-    for i in range(len(p)):
-        if i % 2 == 1:
-            result.append(p[i])
-    for j in range(len(q)):
-        if j % 2 == 1:
-            result.append(q[j])
-    return result
-
-text = func2([1,3,5,10],(1,6,123,7,4))
-print(text)
