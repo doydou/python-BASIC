@@ -1,0 +1,22 @@
+Index: basic knowledge.py
+===================================================================
+--- basic knowledge.py	(revision 9a9c0f9c789346cc481e42750f4f0d63d2f955ac)
++++ basic knowledge.py	(revision 9a9c0f9c789346cc481e42750f4f0d63d2f955ac)
+@@ -1,5 +0,0 @@
+-# 对象及数字对象
+-# 清醒的人都是孤独的
+-#1. 计算并打印出 993 + 196 的和， 乘以 7 的积， 然后除以3
+-print((993 + 136)*7/3)#"/"是除号
+-#2.计算并打印出 993 + 196 的和，乘以 7 的积， 然后除以3 的 商 和 余数
+Index: .idea/vcs.xml
+===================================================================
+--- .idea/vcs.xml	(revision 9a9c0f9c789346cc481e42750f4f0d63d2f955ac)
++++ .idea/vcs.xml	(revision 9a9c0f9c789346cc481e42750f4f0d63d2f955ac)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
