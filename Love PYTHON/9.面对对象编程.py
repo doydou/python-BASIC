@@ -51,14 +51,36 @@ my_new_car.read_odometer()
 子类继承了其父类的所有属性和方法，同时还可以定义自己的属性和方法。
 '''
 #创建子类
+# class ElectricCar(Car):
+#
+#     def __init__(self,make,model,year):#初始化父类的属性
+#         #调用父类
+#         super().__init__(make,model,year)
+#
+# my_Tesla = ElectricCar('tesla',"model's",2020)
+# print(my_Tesla.get_descriptive_name())
+
+#将实例用作属性
+class Battery():#定义一个新的类，他没有继承任何类
+
+    def __init__(self,battery_size = 70):#初始化电瓶的属性
+        self.battery_size = battery_size
+
+    def describe_battey(self):
+        """描述电瓶的容量"""
+        print("这是个含有" + str(self.battery_size) + "容量的电池")
+
+
 class ElectricCar(Car):
 
     def __init__(self,make,model,year):#初始化父类的属性
         #调用父类
         super().__init__(make,model,year)
+        self.battery = Battery()#添加了一个名为self.battery的属性，将Battery实例储存再属性self.battert中
 
 my_Tesla = ElectricCar('tesla',"model's",2020)
 print(my_Tesla.get_descriptive_name())
+my_Tesla.battery.describe_battey()
 
 
 
