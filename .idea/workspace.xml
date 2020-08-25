@@ -9,7 +9,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github.com" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
@@ -21,8 +21,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650aea28-5384-453d-9cd5-a9034696ab7e" name="Default Changelist" comment="基础补全提交">
+      <change afterPath="$PROJECT_DIR$/Alien/images/alien.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alien/images/ship.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alien/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Love PYTHON/9.面对对象编程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien/PLAN project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alien/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alien/logic.py" afterDir="false" />
     </list>
     <list id="7347b899-e7ac-437f-94b4-e591ea579967" name="update" comment="" />
     <list id="3c32cd53-40db-4cb4-9923-14c6808cd4a8" name="update1.0" comment="" />
@@ -83,6 +91,7 @@
       </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="06a04217-207e-446d-8d9d-4eb620ff2471" />
   <component name="ProjectId" id="1dyVVIN6CZ8Vp0iCRt3bgmtz3eP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -95,9 +104,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2048GAME" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,28 +115,7 @@
       <recent name="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice">
-    <configuration name="图片转字符画" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Love PYTHON" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/图片转字符画.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.logic">
     <configuration name="7.函数基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,6 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/7.函数基础.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -160,6 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/8.函数式编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -202,7 +193,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\双宁\PycharmProjects\untitled\Love PYTHON\call module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Alien" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alien/logic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,6 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Love PYTHON/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -234,14 +249,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logic" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.8.函数式编程" />
         <item itemvalue="Python.call module" />
         <item itemvalue="Python.7.函数基础" />
-        <item itemvalue="Python.图片转字符画" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
   </component>
@@ -257,6 +273,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593397341691</updated>
+      <workItem from="1598370190782" duration="917000" />
+      <workItem from="1598371145136" duration="3281000" />
     </task>
     <task id="LOCAL-00001" summary="第一节内容的补充和修改">
       <created>1595991821153</created>
@@ -478,6 +496,9 @@
     <option name="localTasksCounter" value="32" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -529,6 +550,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="基础补全提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="692" y="528" key="#Custom_Plugin_Repositories" timestamp="1598371368937">
+      <screen x="0" y="0" width="2133" height="1160" />
+    </state>
+    <state x="692" y="528" key="#Custom_Plugin_Repositories/0.0.2133.1160@0.0.2133.1160" timestamp="1598371368937" />
+    <state x="591" y="347" key="#HTTP_Proxy" timestamp="1598371780014">
+      <screen x="0" y="0" width="2133" height="1160" />
+    </state>
+    <state x="591" y="347" key="#HTTP_Proxy/0.0.2133.1160@0.0.2133.1160" timestamp="1598371780014" />
     <state x="1014" y="503" key="#Inspections" timestamp="1595992482300">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -557,9 +586,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="519" y="426" width="1549" height="856" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597047108642" />
-    <state x="771" y="438" key="FileChooserDialogImpl" timestamp="1597831630063">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="642" y="363" key="FileChooserDialogImpl" timestamp="1598370295585">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state x="642" y="363" key="FileChooserDialogImpl/0.0.2133.1160@0.0.2133.1160" timestamp="1598370295585" />
     <state x="771" y="438" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1597831630063" />
     <state x="1105" y="701" width="471" height="205" key="Github.ShareDialog" timestamp="1596082097945">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -569,21 +599,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1049" y="504" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1595929479000" />
-    <state width="1131" height="186" key="GridCell.Tab.0.bottom" timestamp="1597905969309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2090" height="322" key="GridCell.Tab.0.bottom" timestamp="1598374451797">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state width="2090" height="322" key="GridCell.Tab.0.bottom/0.0.2133.1160@0.0.2133.1160" timestamp="1598374451797" />
     <state width="1131" height="186" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1597905969309" />
-    <state width="1131" height="186" key="GridCell.Tab.0.center" timestamp="1597905969309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2090" height="322" key="GridCell.Tab.0.center" timestamp="1598374451797">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state width="2090" height="322" key="GridCell.Tab.0.center/0.0.2133.1160@0.0.2133.1160" timestamp="1598374451797" />
     <state width="1131" height="186" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1597905969309" />
-    <state width="1131" height="186" key="GridCell.Tab.0.left" timestamp="1597905969309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2090" height="322" key="GridCell.Tab.0.left" timestamp="1598374451797">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state width="2090" height="322" key="GridCell.Tab.0.left/0.0.2133.1160@0.0.2133.1160" timestamp="1598374451797" />
     <state width="1131" height="186" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1597905969309" />
-    <state width="1131" height="186" key="GridCell.Tab.0.right" timestamp="1597905969309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2090" height="322" key="GridCell.Tab.0.right" timestamp="1598374451797">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state width="2090" height="322" key="GridCell.Tab.0.right/0.0.2133.1160@0.0.2133.1160" timestamp="1598374451797" />
     <state width="1131" height="186" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1597905969309" />
     <state width="637" height="370" key="GridCell.Tab.1.bottom" timestamp="1597227567645">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -613,9 +647,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1095" y="555" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596077989964" />
-    <state x="522" y="403" key="SettingsEditor" timestamp="1597834190757">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="320" y="274" key="SettingsEditor" timestamp="1598373661053">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state x="320" y="274" key="SettingsEditor/0.0.2133.1160@0.0.2133.1160" timestamp="1598373661053" />
     <state x="522" y="403" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597834190757" />
     <state x="1140" y="764" key="VCS.ChangelistChooser" timestamp="1596079149638">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -633,9 +668,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="685" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1596092532704" />
-    <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup" timestamp="1597723074796">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="697" y="563" width="615" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1598370297080">
+      <screen x="0" y="0" width="2133" height="1160" />
     </state>
+    <state x="697" y="563" width="615" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2133.1160@0.0.2133.1160" timestamp="1598370297080" />
+    <state x="1266" y="388" width="560" height="562" key="search.everywhere.popup" timestamp="1598372223389">
+      <screen x="0" y="0" width="2133" height="1160" />
+    </state>
+    <state x="1266" y="388" width="560" height="562" key="search.everywhere.popup/0.0.2133.1160@0.0.2133.1160" timestamp="1598372223389" />
     <state x="1520" y="468" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1597723074796" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_1_0_0$logic.coverage" NAME="logic Coverage Results" MODIFIED="1598374451773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Alien" />
   </component>
 </project>
