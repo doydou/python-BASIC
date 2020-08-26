@@ -16,11 +16,6 @@ def run_game():
     #开始游戏的主循环
     while True:
 
-        #监视键盘和鼠标时间
-        # for event in pygame.event.get():
-        #     if event.type == pygame.QUIT:
-        #         sys.exit()
-
         #每次循环时都重绘屏幕
         screen.fill(ai_settings.bg_color)
         ship.blitme()
