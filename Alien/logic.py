@@ -2,7 +2,7 @@ import sys#使用sys模块来退出游戏
 import pygame
 from settings import Settings
 from ship import Ship
-
+import functins as func
 
 def run_game():
     pygame.init()#初始化背景设置
@@ -16,11 +16,8 @@ def run_game():
     #开始游戏的主循环
     while True:
 
+        func.check_events()
         #每次循环时都重绘屏幕
-        screen.fill(ai_settings.bg_color)
-        ship.blitme()
-
-        #让屏幕可见
-        pygame.display.flip()
+        func.update_screen(ai_settings,screen,ship)
 
 run_game()
