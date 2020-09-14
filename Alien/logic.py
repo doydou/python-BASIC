@@ -16,7 +16,8 @@ def run_game():
     #开始游戏的主循环
     while True:
 
-        func.check_events()
+        func.check_events(ship)
+        ship.update()
         #每次循环时都重绘屏幕
         func.update_screen(ai_settings,screen,ship)
 

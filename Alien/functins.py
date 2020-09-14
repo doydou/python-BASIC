@@ -7,13 +7,18 @@ import pygame
 import ship
 
 
-def check_events():
+def check_events(ship):
     '''响应按键和鼠标时间'''
     for event in pygame.event.get():
-        if event.type == pygame.QUIT():
+        if event.type == pygame.QUIT:
            sys.exit()
         elif event.type == pygame.KEYDOWN:#每次按键都会被注册为一个ketdown时间
             if event.key == pygame.K_RIGHT:
+                ship.moving_right = True
+
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RIGHT:
+                    ship.moving_right = False
                 #向右移动飞船
                 ship.rect.centerx += 1
 
