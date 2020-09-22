@@ -2,9 +2,10 @@ import pygame
 
 class Ship():
 
-    def __init__(self,screen):
+    def __init__(self,screen,ship_index):
         '''初始化飞船及其位置'''
         self.screen = screen
+        self.ship_index = ship_index   #形参列表中添加了形参
 
         #加载飞船图像并获取其外形
         self.image = pygame.image.load('images/ship.bmp')#返回一个表示飞船的surface
@@ -15,14 +16,23 @@ class Ship():
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
+        #在飞船的属性center中存储小属值
+        self.center = float(self.rect.centerx)
+
         #移动标志
         self.moving_right = False
+        self.moving_left = False
 
     def update(self):
         '''根据移动标志调整飞船位置'''
+        #更新飞船的center值，而不是rect
         if self.moving_right:
-            self.rect.centerx += 1
+            self.center += self.ship_index.ship_speed_factor
+        if self.moving_left:
+            self.center -= self.ship_index.ship_speed_factor
 
+        #根据self.center跟新rect对象
+        self.rect.centerx = self.center
     def blitme(self):
         #在指定位置上绘制飞创
         self.screen.blit(self.image,self.rect)

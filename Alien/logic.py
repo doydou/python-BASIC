@@ -11,7 +11,7 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
 
     #创建一艘飞创
-    ship = Ship(screen)
+    ship = Ship(ship_index,screen)
 
     #开始游戏的主循环
     while True:
