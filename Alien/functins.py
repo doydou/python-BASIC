@@ -17,14 +17,14 @@ def check_events(ship):
                 ship.moving_right = True
             elif event.key == pygame.K_LEFT:
                 ship.moving_left = True
-
-            elif event.type == pygame.KEYUP:
-                if event.key == pygame.K_RIGHT:
-                    ship.moving_right = False
-                elif event.key == pygame.K_LEFT:
-                    ship.moving_left = False
+            #松开按键为keyup
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_RIGHT:
+                ship.moving_right = False
+            elif event.key == pygame.K_LEFT:
+                ship.moving_left = False
                 #向右移动飞船
-                ship.rect.centerx += 1
+                #ship.rect.centerx += 1
 
 
 def update_screen(ai_settings, screen, ship):

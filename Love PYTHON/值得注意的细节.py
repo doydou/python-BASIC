@@ -34,3 +34,17 @@ isinstance() 会认为子类是一种父类类型，考虑继承关系。
 转义字符 \ 这个字符可以把没法输入的字符转化成字符串
 '''
 tabby_cat = "\t I'm"
+
+
+#参数的顺序问题
+class Student():
+
+    def __init__(self,name,age):#初始化学生信息
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print("姓名：{} 年龄：{}".format(self.name,self.age))
+
+num1 = Student(24,"doudou")
+print(num1.info())#  姓名24，年龄豆豆。。。位置参数一次赋值。

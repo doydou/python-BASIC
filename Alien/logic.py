@@ -5,7 +5,7 @@ from ship import Ship
 import functins as func
 
 def run_game():
-    pygame.init()#初始化背景设置
+    pygame.init() #初始化背景设置
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height)) #设置屏幕大小
     pygame.display.set_caption("Alien Invasion")
