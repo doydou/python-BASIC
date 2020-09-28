@@ -2,15 +2,15 @@ import pygame
 
 class Ship():
 
-    def __init__(self,screen,ship_index):
+    def __init__(self,ai_settings,screen):
         '''初始化飞船及其位置'''
         self.screen = screen
-        self.ship_index = ship_index   #形参列表中添加了形参
+        self.ai_settings = ai_settings  #形参列表中添加了形参
 
         #加载飞船图像并获取其外形
-        self.image = pygame.image.load('images/ship.bmp')#返回一个表示飞船的surface
-        self.rect = self.image.get_rect()#获取相应的surface的属性
-        self.screen_rect = screen.get_rect()#将表示屏幕的矩形存储在self.screen_rect
+        self.image = pygame.image.load('images/ship.bmp') #返回一个表示飞船的surface
+        self.rect = self.image.get_rect() #获取相应的surface的属性
+        self.screen_rect = screen.get_rect() #将表示屏幕的矩形存储在self.screen_rect
 
         #将每艘飞船放在屏幕底部中央
         self.rect.centerx = self.screen_rect.centerx
@@ -27,9 +27,9 @@ class Ship():
         '''根据移动标志调整飞船位置'''
         #更新飞船的center值，而不是rect
         if self.moving_right:
-            self.center += self.ship_index.ship_speed_factor
+            self.center += self.ai_settings.ship_speed_factor
         if self.moving_left:
-            self.center -= self.ship_index.ship_speed_factor
+            self.center -= self.ai_settings.ship_speed_factor
 
         #根据self.center跟新rect对象
         self.rect.centerx = self.center
