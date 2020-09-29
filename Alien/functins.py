@@ -7,24 +7,49 @@ import pygame
 import ship
 
 
+# def check_events(ship):
+#     '''响应按键和鼠标时间'''
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#            sys.exit()
+#         elif event.type == pygame.KEYDOWN:#每次按键都会被注册为一个ketdown时间
+#             if event.key == pygame.K_RIGHT:
+#                 ship.moving_right = True
+#             elif event.key == pygame.K_LEFT:
+#                 ship.moving_left = True
+#             #松开按键为keyup
+#         elif event.type == pygame.KEYUP:
+#             if event.key == pygame.K_RIGHT:
+#                 ship.moving_right = False
+#             elif event.key == pygame.K_LEFT:
+#                 ship.moving_left = False
+#                 #向右移动飞船
+#                 #ship.rect.centerx +=1
+
+'''重构check_events（）'''
+def check_keydown_events(event , ship):
+#响应按键
+    if event.key == pygame.K_RIGHT:
+        ship.moving_right = True
+    elif event.key == pygame.K_LEFT:
+        ship.moving_left = True
+
+def check_keyup_events(event , ship):
+#响应放开按键
+    if event.key == pygame.K_RIGHT:
+        ship.moving_right = False
+    elif event.key == pygame.K_LEFT:
+        ship.moving_left = False
+
 def check_events(ship):
-    '''响应按键和鼠标时间'''
+#响应鼠标按键
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-           sys.exit()
-        elif event.type == pygame.KEYDOWN:#每次按键都会被注册为一个ketdown时间
-            if event.key == pygame.K_RIGHT:
-                ship.moving_right = True
-            elif event.key == pygame.K_LEFT:
-                ship.moving_left = True
-            #松开按键为keyup
+            sys.exit()
+        elif event.type == pygame.KEYDOWN:
+            check_keydown_events(event,ship)
         elif event.type == pygame.KEYUP:
-            if event.key == pygame.K_RIGHT:
-                ship.moving_right = False
-            elif event.key == pygame.K_LEFT:
-                ship.moving_left = False
-                #向右移动飞船
-                #ship.rect.centerx += 1
+            check_keyup_events(event,ship)
 
 
 def update_screen(ai_settings, screen, ship):
