@@ -22,7 +22,15 @@ def run_game():
 
         func.check_events(ai_settings, screen, ship, bullets)
         ship.update()
-        bullets.update()
+        #bullets.update()
+
+        func.update_bullet(bullets)
+        # #删除以消失子弹(优化主循环，将此放入function中)
+        # for bullet in bullets.copy():
+        #     if bullet.rect.bottom <= 0:
+        #         bullets.remove(bullet)
+        # print(len(bullets))
+
         #每次循环时都重绘屏幕
         func.update_screen(ai_settings, screen, ship, bullets)
 
