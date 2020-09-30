@@ -3,6 +3,8 @@ import pygame
 from settings import Settings
 from ship import Ship
 import functins as func
+from pygame.sprite import Group
+
 
 def run_game():
     pygame.init() #初始化背景设置
@@ -11,14 +13,17 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
 
     #创建一艘飞创
-    ship = Ship(ai_settings , screen)
+    ship = Ship(ai_settings, screen)
+    #创建一个用于存储子弹的编组
+    bullets = Group()
 
     #开始游戏的主循环
     while True:
 
-        func.check_events(ship)
+        func.check_events(ai_settings, screen, ship, bullets)
         ship.update()
+        bullets.update()
         #每次循环时都重绘屏幕
-        func.update_screen(ai_settings,screen,ship)
+        func.update_screen(ai_settings, screen, ship, bullets)
 
 run_game()

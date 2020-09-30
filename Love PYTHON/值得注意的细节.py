@@ -48,3 +48,7 @@ class Student():
 
 num1 = Student(24,"doudou")
 print(num1.info())#  姓名24，年龄豆豆。。。位置参数一次赋值。
+
+
+#python中 报错xxx takes 1 positional argument but 2 were given问题解决
+

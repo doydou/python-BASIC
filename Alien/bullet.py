@@ -15,3 +15,23 @@ class Bullet(Sprite):
         self.screen = screen
 
     #在屏幕上创建一个（0.0）点处表示子弹的矩形，再设置成正确的位置
+        self.rect = pygame.Rect(0, 0, ai_settings.bullet_width,ai_settings.bullet_height)
+        self.rect.centerx = ship.rect.centerx
+        self.rect.top = ship.rect.top
+
+        #存储用小数表示德子弹位置
+        self.y = float(self.rect.y)#子弹德y值会一直发生变化，而x值不变
+
+        self.color = ai_settings.bullet_color
+        self.speed_factor = ai_settings.bullet_speed_factor
+
+    def update(self):
+        '''使子弹向上移动'''
+        #更新子弹位置德小数值
+        self.y -= self.speed_factor
+        #更新子弹的rect位置
+        self.rect.y = self.y
+
+    def draw_bullet(self):
+        '''在屏幕上绘制子弹'''
+        pygame.draw.rect(self.screen, self.color, self.rect)
