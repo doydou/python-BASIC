@@ -6,6 +6,7 @@ import sys
 import pygame
 import ship
 from bullet import Bullet
+from alien import Alien
 
 # def check_events(ship):
 #     '''响应按键和鼠标时间'''
@@ -65,7 +66,7 @@ def check_events(ai_settings, screen, ship, bullets):
             check_keyup_events(event, ship)
 
 
-def update_screen(ai_settings, screen, ship, bullets):
+def update_screen(ai_settings, screen, ship, aliens, bullets):
     """更新屏幕上的图像，并切换到新屏幕"""
     # 每次循环时都会重绘屏幕
     screen.fill(ai_settings.bg_color)
@@ -73,6 +74,7 @@ def update_screen(ai_settings, screen, ship, bullets):
     for bullet in bullets.sprites():
         bullet.draw_bullet()
     ship.blitme()
+    aliens.draw(screen)
 
     # 让最近绘制的屏幕可见
     pygame.display.flip()
@@ -88,3 +90,48 @@ def update_bullet(bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     # print(len(bullets))测试log
+
+'''重构create fleet函数'''
+
+def get_number_alien(ai_settings, alien_width):
+    #求出每行外星人的数量
+    available_space_x = ai_settings.screen_width - 2 * alien_width
+    number_alien = int(available_space_x / (2 * alien_width))
+    return number_alien
+
+def get_number_rows(ai_settings, ship_height, alien_height):
+    """计算屏幕可以容纳多少行外星人"""
+    available_space_y = (ai_settings.screen_height
+                         - (3 * alien_height) - ship_height)
+    number_rows = int(available_space_y / (2 * alien_height))
+    return number_rows
+
+
+def creat_alien(ai_settings, screen, aliens,alien_number, row_number):
+    #创建外星人加入编组并加入当前行
+    alien = Alien(ai_settings, screen)
+    alien_width = alien.rect.width
+    alien.x = alien_width + 2 * alien_width * alien_number
+    alien.rect.x = alien.x
+    alien.rect.y = alien.rect.height + 2 * alien.rect.height * row_number
+    aliens.add(alien)
+
+def create_fleet(ai_settings, screen, aliens, ship):
+    """创建外星人群"""
+    alien = Alien(ai_settings, screen)
+    number_alien = get_number_alien(ai_settings, alien.rect.width)
+    number_rows = get_number_rows(ai_settings, ship.rect.height, alien.rect.height)
+
+    for row_number in range(number_rows):
+        for alien_number in range(number_alien):
+        # 创建一个外星人加入
+        # alien = Alien(ai_settings, screen)
+        # alien.x = alien_width +2 * alien_width * alien_number
+        # alien.rect.x = alien.x
+        # aliens.add(alien)
+            creat_alien(ai_settings, screen, aliens, alien_number, row_number)
+
+def update_aliens(aliens):
+    """更新外星人群中所有外星人的位置"""
+    aliens.update()
+
