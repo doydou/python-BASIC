@@ -31,11 +31,11 @@ def run_game():
 
         func.update_bullet(bullets)
         func.update_aliens(aliens)
-        # #删除以消失子弹(优化主循环，将此放入function中)
-        # for bullet in bullets.copy():
-        #     if bullet.rect.bottom <= 0:
-        #         bullets.remove(bullet)
-        # print(len(bullets))
+            # #删除以消失子弹(优化主循环，将此放入function中)
+            # for bullet in bullets.copy():
+            #     if bullet.rect.bottom <= 0:
+            #         bullets.remove(bullet)
+            # print(len(bullets))
 
         #每次循环时都重绘屏幕
         func.update_screen(ai_settings, screen, ship, aliens, bullets)
