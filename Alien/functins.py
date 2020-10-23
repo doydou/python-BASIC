@@ -80,19 +80,26 @@ def update_screen(ai_settings, screen, ship, aliens, bullets):
     pygame.display.flip()
 
 
-def update_bullet(bullets, aliens):
+def update_bullet(ai_settings, screen, ship, bullets, aliens):
     '''跟新子弹的位置，并删除已消失的子弹'''
-    # 更新子弹的位置
-    #13.5检查是否有子弹击中了外星人
-    #如果是这样，就删除相应的子弹和外星人
-    collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
-    bullets.update()
-
     # 删除已消失的子弹
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     # print(len(bullets))测试log
+    check_bullet_alien_collisions(ai_settings, screen, ship, bullets, aliens)
+
+
+def check_bullet_alien_collisions(ai_settings, screen ,ship, bullets ,aliens):
+    '''响应子弹合外星人的碰撞'''
+    #删除发生碰撞的子弹和外星人
+    collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
+
+    if len(aliens) == 0:
+    #删除现有的子弹并新建一群外星人
+        bullets.empty()
+        create_fleet(ai_settings, screen,aliens, ship)
+
 
 '''重构create fleet函数'''
 
@@ -111,7 +118,7 @@ def get_number_rows(ai_settings, ship_height, alien_height):
     return number_rows
 
 
-def creat_alien(ai_settings, screen, aliens,alien_number, row_number):
+def create_alien(ai_settings, screen, aliens,alien_number, row_number):
     #创建外星人加入编组并加入当前行
     alien = Alien(ai_settings, screen)
     alien_width = alien.rect.width
@@ -134,7 +141,7 @@ def create_fleet(ai_settings, screen, aliens, ship):
         # alien.x = alien_width +2 * alien_width * alien_number
         # alien.rect.x = alien.x
         # aliens.add(alien)
-            creat_alien(ai_settings, screen, aliens, alien_number, row_number)
+            create_alien(ai_settings, screen, aliens, alien_number, row_number)
 
 
 def update_aliens(ai_settings, aliens):

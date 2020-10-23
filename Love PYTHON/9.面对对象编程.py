@@ -125,3 +125,11 @@ if __name__ == '__main__':
 
 
 # 定义一个类描述平面上的点并提供移动点和计算到另一个点距离的方法。
+class Distance():
+    #定义一个类
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
+
