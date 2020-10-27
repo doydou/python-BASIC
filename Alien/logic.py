@@ -30,7 +30,7 @@ def run_game():
 
 
         func.update_bullet(ai_settings,screen,ship, bullets, aliens)
-        func.update_aliens(ai_settings, aliens)
+        func.update_aliens(ai_settings, ship, aliens)
             # #删除以消失子弹(优化主循环，将此放入function中)
             # for bullet in bullets.copy():
             #     if bullet.rect.bottom <= 0:
