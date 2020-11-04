@@ -58,7 +58,6 @@ class Fraction:
         return Fraction(newnum//common , newden//common)
 
 
-
 f1 = Fraction(1,4)
 f2 = Fraction(1,2)
 print(f1 + f2)
