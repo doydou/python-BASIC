@@ -42,6 +42,18 @@ while True:
 #上面的方法比较笨。下面为更简洁高效的方案
 #从上面代码我们可以发现，上面利润的计算方法有一个通式
 #就是（a-b）*c————如：10 * 0.1=（10-0）*0.1
-money = int(input('the profit is：'))
-
-    
+profit = int(input('the profit is：'))
+thresholds = [1000000, 600000, 400000, 200000, 100000, 0]
+rates = [0.1, 0.075, 0.05, 0.03, 0.015, 0.01]
+rates.reverse()
+bonus = 0
+for i in range(len(thresholds)):
+    if profit > thresholds[i]:
+        bonus += (profit - thresholds[i]) * rates[i]
+        print("区间提成：", (profit - thresholds[i]) * rates[i])
+        profit = thresholds[i]
+print(bonus)
+"""
+题目：一个整数，它加上100后是一个完全平方数，再加上168又是一个完全平方数，请问该数是多少？
+程序分析：因为168对于指数爆炸来说实在太小了，所以可以直接省略数学分析，用最朴素的方法来获取上限:
+"""

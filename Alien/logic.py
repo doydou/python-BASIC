@@ -2,7 +2,7 @@ import sys#使用sys模块来退出游戏
 import pygame
 from settings import Settings
 from ship import Ship
-import functins as func
+import functions as func
 from pygame.sprite import Group
 
 
