@@ -64,3 +64,7 @@ while (n+1)**2 - n ** 2 <= 168:
     n += 1
 
     print(n+1)
+
+for i in range((n+1)**2):
+    if (i + 168)** 0.5 == int((i + 168)** 0.5):
+        print(i-100)
