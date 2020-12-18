@@ -94,4 +94,29 @@ else:
     print('这一天是这一年的第%d天' %s)
 
 '''
+005题目：输入三个整数x,y,z，请把这三个数由小到大输出。
 '''
+x = input('请输入x：')
+y = input('请输入y：')
+z = input('请输入z：')
+
+list = [x,y,z]
+print('排序前：', list)
+
+list.sort()
+print('升序：', list)
+
+list.sort(reverse = True)
+print('降序：', list)
+
+'''
+006题目：斐波那契数列。
+（Fibonacci sequence），从1,1开始，后面每一项等于前面两项之和。图方便就递归实现，图性能就用循环。
+'''
+#这里 a, b = b, a+b 右边的表达式会在赋值变动之前执行，即先执行右边，比如第一次循环得到b-->1,a+b --> 0+1
+# 然后再执行赋值 a,b =1,0+1,所以执行完这条后a=1,b=1
+a = 0
+b = 1
+while b < 1000:
+    print(b,end=',')#end 可以将print输出到同一行并以，结尾
+    a, b = b, a+b
