@@ -4,6 +4,7 @@ from settings import Settings
 from ship import Ship
 import functions as func
 from pygame.sprite import Group
+from button import Button
 
 
 
@@ -12,6 +13,9 @@ def run_game():
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height)) #设置屏幕大小
     pygame.display.set_caption("Alien Invasion")
+
+    #创建play按钮
+    play_button = Button(ai_settings, screen, "Play")
 
     #创建一艘飞船，一个子弹编组和一个外星人编组
     ship = Ship(ai_settings, screen)
@@ -38,6 +42,6 @@ def run_game():
             # print(len(bullets))
 
         #每次循环时都重绘屏幕
-        func.update_screen(ai_settings, screen, ship, aliens, bullets)
+        func.update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button)
 
 run_game()
