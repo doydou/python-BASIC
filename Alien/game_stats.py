@@ -11,3 +11,4 @@ class GameStats():
         self.game_active = False
 
     def reset_stats(self):
+        """"""
