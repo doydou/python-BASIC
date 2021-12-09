@@ -7,7 +7,7 @@ import pygame
 import ship
 from bullet import Bullet
 from alien import Alien
-
+from time import sleep
 # def check_events(ship):
 #     '''响应按键和鼠标时间'''
 #     for event in pygame.event.get():
@@ -152,6 +152,15 @@ def update_aliens(ai_settings, ship, aliens):
     """更新外星人群中所有外星人的位置"""
     check_fleet_edges(ai_settings, aliens)
     aliens.update()
+
+def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
+    '''响应被外星人撞到的飞船'''
+    #将ship_left - 1
+    stats.ships_left -= 1
+
+    #清空外形人和子弹列表
+    aliens.empty()
+    bullets.empty()
 
     #检测外星人和飞船之间的碰撞
     if pygame.sprite.spritecollideany(ship, aliens):

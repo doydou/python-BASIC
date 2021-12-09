@@ -10,7 +10,7 @@ class Settings():
 
         #飞船的设置
         self.ship_speed_factor = 1.5 #移动1.5像素
-
+        self.ship_limit = 3
         #子弹设置
         self.bullet_speed_factor = 3
         self.bullet_width = 3

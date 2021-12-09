@@ -11,4 +11,5 @@ class GameStats():
         self.game_active = False
 
     def reset_stats(self):
-        """"""
+        """初始化游戏运行时间可能变化的统计信息"""
+        self.ships_left = self.ai_settings.ship_limit
