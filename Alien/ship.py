@@ -34,7 +34,8 @@ class Ship():
 
         #根据self.center跟新rect对象
         self.rect.centerx = self.center
+
     def blitme(self):
-        #在指定位置上绘制飞创
+        #在指定位置上绘制飞船
         self.screen.blit(self.image,self.rect)
 

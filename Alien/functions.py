@@ -162,6 +162,13 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
     aliens.empty()
     bullets.empty()
 
+    #创建一群新的外形人，并将飞船放到屏幕底端中央
+    create_fleet(ai_settings, screen, ship, aliens)
+    ship.center_ship()
+
+    #暂停
+    sleep(0.5)
+
     #检测外星人和飞船之间的碰撞
     if pygame.sprite.spritecollideany(ship, aliens):
         print("ship hit")
