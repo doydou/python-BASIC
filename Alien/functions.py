@@ -77,7 +77,7 @@ def update_screen(ai_settings, screen, ship, aliens, bullets, play_button):
     aliens.draw(screen)
 
     #如果游戏处于非活动状态，就绘制play按钮
-    if not state.game_active:
+    if not stats.game_active:
         play_button.draw_button()
 
     # 让最近绘制的屏幕可见
@@ -186,4 +186,7 @@ def change_fleet_direction(ai_settings, aliens):
     '''将整体外星人下移'''
     for alien in aliens.sprites():
         alien.rect.y += ai_settings.fleet_drop_speed
-    ai_settings.fleet_direction *= -1#向下移以后改变其值为负。即为修改方向
+    ai_settings.fleet_direction *= -1 #向下移以后改变其值为负。即为修改方向
+
+def check_aliens_bottom(ai_settings, stats, screen , ship, aliens, bullets):
+    '''检查是否有外形人到达屏幕的底端'''
