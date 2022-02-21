@@ -31,13 +31,15 @@ def run_game():
     #开始游戏的主循环
     while True:
 
-        func.check_events(ai_settings, screen, ship, bullets)
-        ship.update()
-        #bullets.update()
+        func.check_events(ai_settings, screen, stats, play_button, ship, bullets)
+
+        if stats.game_active:
+            ship.update()
+            #bullets.update()
 
 
-        func.update_bullet(ai_settings,screen,ship, bullets, aliens)
-        func.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
+            func.update_bullet(ai_settings,screen,ship, bullets, aliens)
+            func.update_aliens(ai_settings, ship, aliens)
             # #删除以消失子弹(优化主循环，将此放入function中)
             # for bullet in bullets.copy():
             #     if bullet.rect.bottom <= 0:

@@ -19,7 +19,7 @@ class Bullet(Sprite):
         self.rect.centerx = ship.rect.centerx
         self.rect.top = ship.rect.top
 
-        #存储用小数表示德子弹位置
+        #存储用小数表示子弹位置
         self.y = float(self.rect.y)#子弹德y值会一直发生变化，而x值不变
 
         self.color = ai_settings.bullet_color
@@ -27,7 +27,7 @@ class Bullet(Sprite):
 
     def update(self):
         '''使子弹向上移动'''
-        #更新子弹位置德小数值
+        #更新子弹位置的小数值
         self.y -= self.speed_factor
         #更新子弹的rect位置
         self.rect.y = self.y
