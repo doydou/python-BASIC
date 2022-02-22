@@ -23,6 +23,10 @@ class Ship():
         self.moving_right = False
         self.moving_left = False
 
+    def center_ship(self):
+        '''将飞船放入屏幕中'''
+        self.center = self.screen_rect.centerx
+
     def update(self):
         '''根据移动标志调整飞船位置'''
         #调整飞船的活动范围

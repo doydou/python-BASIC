@@ -22,9 +22,7 @@ class Alien(Sprite):
         #储存外星人的精确位置
         self.x = float(self.rect.x)
 
-    def blitme(self):
-        """在指定位置上绘制外星人"""
-        self.screen.blit(self.image, self.rect)
+
     def check_edges(self):
         '''如果外星人位于屏幕边缘就返回true'''
         screen_rect = self.screen.get_rect()
@@ -36,3 +34,7 @@ class Alien(Sprite):
     def update(self):
         self.x += (self.ai_settings.alien_speed_factor * self.ai_settings.fleet_direction)
         self.rect.x = self.x
+
+    def blitme(self):
+        """在指定位置上绘制外星人"""
+        self.screen.blit(self.image, self.rect)

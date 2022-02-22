@@ -9,7 +9,7 @@ srite模块有两个主要的类。第一种是Sprite，它应该作为所有游
 class Bullet(Sprite):
     '''对子弹管理的类'''
 
-    def __init__(self,ai_settings,screen,ship):
+    def __init__(self, ai_settings, screen, ship):
         '''在飞船上创建子弹'''
         super().__init__()
         self.screen = screen
