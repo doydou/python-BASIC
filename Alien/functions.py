@@ -83,10 +83,11 @@ def fire_bullet(ai_settings, screen, ship, bullets):
         new_bullet = Bullet(ai_settings, screen, ship)
         bullets.add(new_bullet)
 
-def update_screen(ai_settings, screen, stats, ship, bullets, aliens, play_button):
+def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
     """更新屏幕上的图像，并切换到新屏幕"""
     # 每次循环时都会重绘屏幕
     screen.fill(ai_settings.bg_color)
+
 
     # 在飞船和外星人后面重绘所有子弹
     for bullet in bullets.sprites():
@@ -102,7 +103,7 @@ def update_screen(ai_settings, screen, stats, ship, bullets, aliens, play_button
     pygame.display.flip()
 
 
-def update_bullet(ai_settings, screen, ship, bullets, aliens):
+def update_bullets(ai_settings, screen, ship, bullets, aliens):
     '''跟新子弹的位置，并删除已消失的子弹'''
     #刷新子弹位置
     bullets.update()
@@ -151,6 +152,7 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
         #将ship_left - 1
         stats.ships_left -= 1
     else:
+        # 当飞船数量用完，不执行更新
         stats.game_active = False
         pygame.mouse.set_visible(True)
 
